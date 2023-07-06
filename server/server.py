@@ -9,7 +9,8 @@ CORS(app)
 @app.route("/api/home", methods=['GET'])
 def return_home():
     return jsonify({
-        'message': "Hello World!"
+        'message': "Hello world~~~~!",
+        "people": ["Jack", "Maria", "John"]
     })
 
 if __name__ == '__main__':
